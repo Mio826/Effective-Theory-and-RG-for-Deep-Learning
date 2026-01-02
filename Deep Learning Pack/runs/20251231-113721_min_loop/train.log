@@ -1,0 +1,8 @@
+[11:37:23][INFO][min_loop.run] Run prepared: run_dir=C:\Users\28547\anaconda_projects\Deep Learning Pack\runs\20251231-113721_min_loop
+[11:37:23][INFO][min_loop.run] device=cpu, dtype=torch.float32, seed=123, deterministic=False
+[11:37:23][INFO][min_loop.run] Saved config: C:\Users\28547\anaconda_projects\Deep Learning Pack\runs\20251231-113721_min_loop\config.json
+[11:37:31][INFO][min_loop.run] Built model: Sequential
+[11:37:31][INFO][min_loop.run] Built optimizer: AdamW
+[11:37:31][INFO][min_loop.run] fit_start
+[11:37:31][INFO][min_loop.run] step=10 loss=4.113227844238281
+[11:37:31][INFO][min_loop.run] fit_end last_metrics={'loss': 0.7254676818847656}

@@ -1,0 +1,41 @@
+{
+  "project_name": "dlphys",
+  "run_name": "dev_mlp_smoke",
+  "tags": {},
+  "notes": "",
+  "seed": 123,
+  "deterministic": false,
+  "device": "cuda",
+  "dtype": "float32",
+  "project_root": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack",
+  "runs_dir": "runs",
+  "run_dir": null,
+  "log_file": "train.log",
+  "batch_size": 128,
+  "lr": 0.01,
+  "weight_decay": 0.0,
+  "max_epochs": 10,
+  "extra": {
+    "model_name": "mlp",
+    "model_kwargs": {
+      "in_dim": 4,
+      "out_dim": 3,
+      "width": 128,
+      "depth": 4,
+      "activation": "relu",
+      "norm": "none",
+      "residual": false
+    },
+    "optim_name": "adamw",
+    "optim_kwargs": {
+      "lr": 0.01,
+      "weight_decay": 0.0
+    }
+  },
+  "resolved": {
+    "project_root": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack",
+    "runs_parent": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack\\runs",
+    "run_dir": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack\\runs\\dev_mlp_smoke",
+    "log_path": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack\\runs\\dev_mlp_smoke\\train.log"
+  }
+}

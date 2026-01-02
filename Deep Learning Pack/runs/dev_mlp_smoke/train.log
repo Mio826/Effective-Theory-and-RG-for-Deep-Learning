@@ -1,0 +1,91 @@
+[18:03:36][INFO][dlphys.run] Run prepared: run_dir=C:\Users\28547\anaconda_projects\Deep Learning Pack\runs\dev_mlp_smoke
+[18:03:36][INFO][dlphys.run] device=cpu, dtype=torch.float32, seed=123, deterministic=False
+[18:03:38][INFO][dlphys.run] Built model: MLP
+[18:03:38][INFO][dlphys.run] Built optimizer: AdamW
+[18:03:38][INFO][dlphys.run] Saved config: C:\Users\28547\anaconda_projects\Deep Learning Pack\runs\dev_mlp_smoke\config.json
+{"t": 1767308931.5399895, "epoch": 0, "step": 1, "metrics": {"loss": 4.72140645980835}}
+{"t": 1767308931.54475, "epoch": 0, "step": 2, "metrics": {"loss": 3.908360242843628}}
+{"t": 1767308931.5497887, "epoch": 0, "step": 3, "metrics": {"loss": 3.6797542572021484}}
+{"t": 1767308931.5497887, "epoch": 0, "step": 4, "metrics": {"loss": 1.537856936454773}}
+{"t": 1767308931.5599346, "epoch": 0, "step": 5, "metrics": {"loss": 2.4250009059906006}}
+{"t": 1767308931.569771, "epoch": 0, "step": 6, "metrics": {"loss": 5.343061923980713}}
+{"t": 1767308931.569771, "epoch": 0, "step": 7, "metrics": {"loss": 0.5587978959083557}}
+{"t": 1767308931.580145, "epoch": 0, "step": 8, "metrics": {"loss": 1.2096672058105469}}
+{"t": 1767308931.580145, "epoch": 0, "step": 8, "metrics": {"loss": 1.2096672058105469}, "event": "epoch_end"}
+{"t": 1767308931.580145, "epoch": 1, "step": 9, "metrics": {"loss": 1.534202218055725}}
+{"t": 1767308931.580145, "epoch": 1, "step": 10, "metrics": {"loss": 2.203932285308838}}
+{"t": 1767308931.5899806, "epoch": 1, "step": 11, "metrics": {"loss": 2.232726573944092}}
+{"t": 1767308931.5917697, "epoch": 1, "step": 12, "metrics": {"loss": 1.9675397872924805}}
+{"t": 1767308931.5917697, "epoch": 1, "step": 13, "metrics": {"loss": 2.403904676437378}}
+{"t": 1767308931.6000195, "epoch": 1, "step": 14, "metrics": {"loss": 1.9156547784805298}}
+{"t": 1767308931.6000195, "epoch": 1, "step": 15, "metrics": {"loss": 1.4660273790359497}}
+{"t": 1767308931.607582, "epoch": 1, "step": 16, "metrics": {"loss": 1.2130085229873657}}
+{"t": 1767308931.607582, "epoch": 1, "step": 16, "metrics": {"loss": 1.2130085229873657}, "event": "epoch_end"}
+{"t": 1767308931.6100934, "epoch": 2, "step": 17, "metrics": {"loss": 1.429289698600769}}
+{"t": 1767308931.6176507, "epoch": 2, "step": 18, "metrics": {"loss": 1.2937687635421753}}
+{"t": 1767308931.6211584, "epoch": 2, "step": 19, "metrics": {"loss": 1.0106549263000488}}
+{"t": 1767308931.6245813, "epoch": 2, "step": 20, "metrics": {"loss": 0.6798017621040344}}
+{"t": 1767308931.6278038, "epoch": 2, "step": 21, "metrics": {"loss": 0.5679098963737488}}
+{"t": 1767308931.6311255, "epoch": 2, "step": 22, "metrics": {"loss": 0.5201557874679565}}
+{"t": 1767308931.634125, "epoch": 2, "step": 23, "metrics": {"loss": 0.4766094386577606}}
+{"t": 1767308931.6367257, "epoch": 2, "step": 24, "metrics": {"loss": 0.579510509967804}}
+{"t": 1767308931.6367257, "epoch": 2, "step": 24, "metrics": {"loss": 0.579510509967804}, "event": "epoch_end"}
+{"t": 1767308951.885998, "epoch": 0, "step": 1, "metrics": {"loss": 0.4448920786380768}}
+{"t": 1767308951.8900025, "epoch": 0, "step": 2, "metrics": {"loss": 0.4464929401874542}}
+{"t": 1767308951.8946612, "epoch": 0, "step": 3, "metrics": {"loss": 0.4781743586063385}}
+{"t": 1767308951.8946612, "epoch": 0, "step": 4, "metrics": {"loss": 0.44124162197113037}}
+{"t": 1767308951.8999474, "epoch": 0, "step": 5, "metrics": {"loss": 0.22997550666332245}}
+{"t": 1767308951.9060373, "epoch": 0, "step": 6, "metrics": {"loss": 0.2529716193675995}}
+{"t": 1767308951.9100037, "epoch": 0, "step": 7, "metrics": {"loss": 0.2549830973148346}}
+{"t": 1767308951.9150481, "epoch": 0, "step": 8, "metrics": {"loss": 0.2253626435995102}}
+{"t": 1767308951.9150481, "epoch": 0, "step": 8, "metrics": {"loss": 0.2253626435995102}, "event": "epoch_end"}
+{"t": 1767308951.9219675, "epoch": 1, "step": 9, "metrics": {"loss": 0.25181159377098083}}
+{"t": 1767308951.9219675, "epoch": 1, "step": 10, "metrics": {"loss": 0.2667835056781769}}
+{"t": 1767308951.9287677, "epoch": 1, "step": 11, "metrics": {"loss": 0.2347889393568039}}
+{"t": 1767308951.929792, "epoch": 1, "step": 12, "metrics": {"loss": 0.13719947636127472}}
+{"t": 1767308951.9347665, "epoch": 1, "step": 13, "metrics": {"loss": 0.07927873730659485}}
+{"t": 1767308951.9366522, "epoch": 1, "step": 14, "metrics": {"loss": 0.1251232624053955}}
+{"t": 1767308951.9387622, "epoch": 1, "step": 15, "metrics": {"loss": 0.1564001739025116}}
+{"t": 1767308951.9412837, "epoch": 1, "step": 16, "metrics": {"loss": 0.1494247168302536}}
+{"t": 1767308951.9423726, "epoch": 1, "step": 16, "metrics": {"loss": 0.1494247168302536}, "event": "epoch_end"}
+{"t": 1767308951.9462519, "epoch": 2, "step": 17, "metrics": {"loss": 0.13037683069705963}}
+{"t": 1767308951.9492233, "epoch": 2, "step": 18, "metrics": {"loss": 0.09712887555360794}}
+{"t": 1767308951.9532793, "epoch": 2, "step": 19, "metrics": {"loss": 0.10824357718229294}}
+{"t": 1767308951.9578936, "epoch": 2, "step": 20, "metrics": {"loss": 0.10409649461507797}}
+{"t": 1767308951.960138, "epoch": 2, "step": 21, "metrics": {"loss": 0.07459963113069534}}
+{"t": 1767308951.9665017, "epoch": 2, "step": 22, "metrics": {"loss": 0.08213234692811966}}
+{"t": 1767308951.9701662, "epoch": 2, "step": 23, "metrics": {"loss": 0.09069938212633133}}
+{"t": 1767308951.9741795, "epoch": 2, "step": 24, "metrics": {"loss": 0.05380509793758392}}
+{"t": 1767308951.9741795, "epoch": 2, "step": 24, "metrics": {"loss": 0.05380509793758392}, "event": "epoch_end"}
+[19:06:02][INFO][dlphys.run] Run prepared: run_dir=C:\Users\28547\anaconda_projects\Deep Learning Pack\runs\dev_mlp_smoke
+[19:06:02][INFO][dlphys.run] device=cpu, dtype=torch.float32, seed=123, deterministic=False
+[19:06:02][INFO][dlphys.run] Built model: MLP
+[19:06:02][INFO][dlphys.run] Built optimizer: AdamW
+[19:06:02][INFO][dlphys.run] Saved config: C:\Users\28547\anaconda_projects\Deep Learning Pack\runs\dev_mlp_smoke\config.json
+{"t": 1767312362.343211, "epoch": 0, "step": 1, "metrics": {"loss": 4.72140645980835}}
+{"t": 1767312362.3503494, "epoch": 0, "step": 2, "metrics": {"loss": 3.908360242843628}}
+{"t": 1767312362.3522997, "epoch": 0, "step": 3, "metrics": {"loss": 3.6797542572021484}}
+{"t": 1767312362.36057, "epoch": 0, "step": 4, "metrics": {"loss": 1.537856936454773}}
+{"t": 1767312362.36057, "epoch": 0, "step": 5, "metrics": {"loss": 2.4250009059906006}}
+{"t": 1767312362.3690147, "epoch": 0, "step": 6, "metrics": {"loss": 5.343061923980713}}
+{"t": 1767312362.374442, "epoch": 0, "step": 7, "metrics": {"loss": 0.5587978959083557}}
+{"t": 1767312362.374442, "epoch": 0, "step": 8, "metrics": {"loss": 1.2096672058105469}}
+{"t": 1767312362.374442, "epoch": 0, "step": 8, "metrics": {"loss": 1.2096672058105469}, "event": "epoch_end"}
+{"t": 1767312362.382446, "epoch": 1, "step": 9, "metrics": {"loss": 1.534202218055725}}
+{"t": 1767312362.382446, "epoch": 1, "step": 10, "metrics": {"loss": 2.203932285308838}}
+{"t": 1767312362.3909128, "epoch": 1, "step": 11, "metrics": {"loss": 2.232726573944092}}
+{"t": 1767312362.3909128, "epoch": 1, "step": 12, "metrics": {"loss": 1.9675397872924805}}
+{"t": 1767312362.400441, "epoch": 1, "step": 13, "metrics": {"loss": 2.403904676437378}}
+{"t": 1767312362.4075465, "epoch": 1, "step": 14, "metrics": {"loss": 1.9156547784805298}}
+{"t": 1767312362.4102335, "epoch": 1, "step": 15, "metrics": {"loss": 1.4660273790359497}}
+{"t": 1767312362.4159296, "epoch": 1, "step": 16, "metrics": {"loss": 1.2130085229873657}}
+{"t": 1767312362.4159296, "epoch": 1, "step": 16, "metrics": {"loss": 1.2130085229873657}, "event": "epoch_end"}
+{"t": 1767312362.4204903, "epoch": 2, "step": 17, "metrics": {"loss": 1.429289698600769}}
+{"t": 1767312362.424335, "epoch": 2, "step": 18, "metrics": {"loss": 1.2937687635421753}}
+{"t": 1767312362.4325712, "epoch": 2, "step": 19, "metrics": {"loss": 1.0106549263000488}}
+{"t": 1767312362.4325712, "epoch": 2, "step": 20, "metrics": {"loss": 0.6798017621040344}}
+{"t": 1767312362.4408488, "epoch": 2, "step": 21, "metrics": {"loss": 0.5679098963737488}}
+{"t": 1767312362.4408488, "epoch": 2, "step": 22, "metrics": {"loss": 0.5201557874679565}}
+{"t": 1767312362.449314, "epoch": 2, "step": 23, "metrics": {"loss": 0.4766094386577606}}
+{"t": 1767312362.4503193, "epoch": 2, "step": 24, "metrics": {"loss": 0.579510509967804}}
+{"t": 1767312362.4503193, "epoch": 2, "step": 24, "metrics": {"loss": 0.579510509967804}, "event": "epoch_end"}

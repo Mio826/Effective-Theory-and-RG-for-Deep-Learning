@@ -1,0 +1,9 @@
+[14:39:42][INFO][dlphys.run] Run prepared: run_dir=C:\Users\28547\anaconda_projects\Deep Learning Pack\runs\dev_full_pipeline_init
+[14:39:42][INFO][dlphys.run] device=cpu, dtype=torch.float32, seed=123, deterministic=False
+[14:39:42][INFO][dlphys.run] Applying init: kaiming kwargs={'gain': 1.0, 'bias': 'zero', 'head_scale': 1.0, 'nonlinearity': 'relu', 'distribution': 'normal'}
+[14:39:42][INFO][dlphys.run] Init report: {'num_modules': 4, 'head_name': None, 'head_scale': 1.0, 'init_applied': True, 'init_name': 'kaiming'}
+[14:39:44][INFO][dlphys.run] Built model: MLP
+[14:39:44][INFO][dlphys.run] Built optimizer: Adam
+[14:39:44][INFO][dlphys.run] Saved config: C:\Users\28547\anaconda_projects\Deep Learning Pack\runs\dev_full_pipeline_init\config.json
+[14:43:21][INFO][dlphys.run] Applying init: kaiming kwargs={'gain': 1.0, 'bias': 'zero', 'head_scale': 1.0, 'nonlinearity': 'relu', 'distribution': 'normal'}
+[14:43:21][INFO][dlphys.run] Init report: {'num_modules': 4, 'head_name': None, 'head_scale': 1.0, 'init_applied': True, 'init_name': 'kaiming'}

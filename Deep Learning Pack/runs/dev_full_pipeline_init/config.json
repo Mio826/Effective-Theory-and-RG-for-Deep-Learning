@@ -1,0 +1,57 @@
+{
+  "project_name": "dlphys",
+  "run_name": "dev_full_pipeline_init",
+  "tags": {},
+  "notes": "",
+  "seed": 123,
+  "deterministic": false,
+  "device": "cpu",
+  "dtype": "float32",
+  "project_root": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack",
+  "runs_dir": "runs",
+  "run_dir": null,
+  "log_file": "train.log",
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "max_epochs": 2,
+  "extra": {
+    "data_name": "toy_linear_regression",
+    "data_kwargs": {
+      "n": 512,
+      "in_dim": 4,
+      "out_dim": 3,
+      "noise_std": 0.1,
+      "val_fraction": 0.0,
+      "num_workers": 0
+    },
+    "model_name": "mlp",
+    "model_kwargs": {
+      "in_dim": 4,
+      "out_dim": 3,
+      "width": 128,
+      "depth": 3,
+      "activation": "relu",
+      "norm": "none"
+    },
+    "optim_name": "adam",
+    "optim_kwargs": {
+      "lr": 0.01,
+      "weight_decay": 0.0
+    },
+    "init_name": "kaiming",
+    "init_kwargs": {
+      "gain": 1.0,
+      "bias": "zero",
+      "head_scale": 1.0,
+      "nonlinearity": "relu",
+      "distribution": "normal"
+    }
+  },
+  "resolved": {
+    "project_root": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack",
+    "runs_parent": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack\\runs",
+    "run_dir": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack\\runs\\dev_full_pipeline_init",
+    "log_path": "C:\\Users\\28547\\anaconda_projects\\Deep Learning Pack\\runs\\dev_full_pipeline_init\\train.log"
+  }
+}
