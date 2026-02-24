@@ -63,3 +63,24 @@ def build_resnet18_cifar_nobn(cfg: ExperimentConfig, **kwargs: Any) -> nn.Module
     kwargs = dict(kwargs)
     kwargs["norm"] = "none"
     return build_resnet18_cifar(cfg, **kwargs)
+
+
+
+
+from .toy_attention import ToyAttentionConfig, ToyAttentionDynamics
+@register_model("toy_attention", overwrite=True)
+def build_toy_attention(cfg: ExperimentConfig, **kwargs: Any) -> nn.Module:
+    # required: d_model, d_k
+    if "d_model" not in kwargs or "d_k" not in kwargs:
+        raise ValueError("toy_attention requires model_kwargs: {d_model: int, d_k: int, ...}")
+
+    mc = ToyAttentionConfig(
+        d_model=int(kwargs["d_model"]),
+        d_k=int(kwargs["d_k"]),
+        L=int(kwargs.get("L", 8)),
+        num_heads=int(kwargs.get("num_heads", 1)),
+        gamma=float(kwargs.get("gamma", 0.5)),
+        phi=str(kwargs.get("phi", "identity")),
+        bias=bool(kwargs.get("bias", False)),
+    )
+    return ToyAttentionDynamics(mc)
