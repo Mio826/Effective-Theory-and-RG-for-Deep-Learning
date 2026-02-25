@@ -11,6 +11,7 @@ from dlphys.config.registry import register_model
 from .mlp import MLP, MLPConfig
 from .convnet import ConvNetSmall, ConvNetSmallConfig
 from .resnet import resnet18_cifar
+from .toy_attention import ToyAttentionConfig, ToyAttentionDynamics
 
 
 @register_model("mlp", overwrite=True)
@@ -66,8 +67,6 @@ def build_resnet18_cifar_nobn(cfg: ExperimentConfig, **kwargs: Any) -> nn.Module
 
 
 
-
-from .toy_attention import ToyAttentionConfig, ToyAttentionDynamics
 @register_model("toy_attention", overwrite=True)
 def build_toy_attention(cfg: ExperimentConfig, **kwargs: Any) -> nn.Module:
     # required: d_model, d_k
@@ -82,5 +81,6 @@ def build_toy_attention(cfg: ExperimentConfig, **kwargs: Any) -> nn.Module:
         gamma=float(kwargs.get("gamma", 0.5)),
         phi=str(kwargs.get("phi", "identity")),
         bias=bool(kwargs.get("bias", False)),
+        v_gain=float(kwargs.get("v_gain", 1.0)),   # NEW
     )
     return ToyAttentionDynamics(mc)
