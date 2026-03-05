@@ -49,6 +49,8 @@ class DMFTSolver:
         # If your theory uses 1/dk^gamma, then relative scaling is dk^{-(gamma-1/2)}.
         # At GP level: S -> s2 * S for some scalar s2(gamma, dk).
         # Here we leave dk out; you can inject an effective scalar if you decide.
+        scale = dk ** (1 - 2 * gamma)
+        S *= scale
         return S
 
     def compute_M(self, S: np.ndarray) -> np.ndarray:
