@@ -39,3 +39,16 @@ def power_law_alpha(C: np.ndarray, lmin: int = 1, lmax: int | None = None) -> fl
     y = np.log(vals[mask].astype(np.float64))
     slope, _ = np.polyfit(x, y, 1)
     return float(-slope)
+
+def focus_sharpness(M: Array) -> float:
+    """
+    Dimensionless sharpness:
+        kappa = (L+1) * E[||alpha||_2^2] = (L+1) * trace(M)
+
+    Range:
+      - Uniform attention: kappa = 1
+      - One-hot attention: kappa ~ L+1
+    """
+    M = np.asarray(M, dtype=float)
+    Lp1 = M.shape[0]
+    return float(Lp1 * np.trace(M))
