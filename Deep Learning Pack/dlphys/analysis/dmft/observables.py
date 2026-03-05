@@ -53,9 +53,6 @@ def focus_sharpness(M: Array) -> float:
     Lp1 = M.shape[0]
     return float(Lp1 * np.trace(M))
 
-# dlphys/analysis/dmft/observables.py (append)
-from __future__ import annotations
-import numpy as np
 
 def softmax(x: np.ndarray, axis: int = -1) -> np.ndarray:
     x = x - np.max(x, axis=axis, keepdims=True)
